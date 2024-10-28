@@ -94,6 +94,7 @@ struct NODE* splitPath(char* pathName, char* baseName, char* dirName){
     // SEE THE PROVIDED EXECUTABLE TO SEE THEIR EXPECTED BEHAVIOR
 
     // YOUR CODE HERE
+    strcpy(path, pathName);
     if(strcmp(pathName, "/") == 0){
 	    strcpy(baseName, pathName);
 	    strcpy(dirName, "");
